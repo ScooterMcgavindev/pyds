@@ -18,4 +18,7 @@ new_list.extend([5, 6, 7])
 
 # inserting in a list
 new_list.insert(0, 10)
+
+# delte specific value in a list
+new_list.remove(4)
 print(new_list)

@@ -105,3 +105,13 @@ def merge(left, right):
 
 
 
+l = LinkedList()
+l.add(10)
+l.add(2)
+l.add(44)
+l.add(15)
+l.add(200)
+
+print(l)
+sorted_linked_list = merge_sort(l)
+print(sorted_linked_list)

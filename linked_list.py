@@ -117,6 +117,20 @@ class LinkedList:
         current = current.next_node
         
     return current
+
+  # Convience method to return a node at a given index
+  def node_at_index(self, index):
+    # acceps as an argument the index we want to get the node for
+    if index == 0:
+      return self.head
+    else:
+      current = self.head
+      position = 0
+
+      while position < index:
+        current = current.next_node
+        position += 1
+      return current
       
   def __repr__(self):
     """
